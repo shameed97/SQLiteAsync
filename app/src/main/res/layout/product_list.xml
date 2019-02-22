@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="@color/back_la">
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="@string/id"
+        android:id="@+id/t_id"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t_id"
+        android:gravity="center"
+        android:text="@string/name"
+        android:id="@+id/t_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/t_id" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t_name"
+        android:gravity="center"
+        android:text="@string/dept"
+        android:id="@+id/t_dept"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/t_name" />
+</RelativeLayout>

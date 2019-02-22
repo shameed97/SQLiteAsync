@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SQLiteAsync</string>
+    <string name="add_info">Add Info</string>
+    <string name="show_info">Show Info</string>
+    <string name="enter_id">Enter Id</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="insert">Insert</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="dept">Dept</string>
+    <string name="id">Id</string>
+</resources>
